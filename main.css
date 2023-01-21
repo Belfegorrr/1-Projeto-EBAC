@@ -1,28 +1,136 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-header{
-    padding: 16px 0;
-    background-color: rgb(61, 59, 59);
-    color: rgb(242, 243, 245);
+header {
+  padding: 16px 0;
+  background-color: rgb(12, 12, 12);
+  color: rgb(242, 243, 245);
+}
+body{
+  color: rgb(8, 8, 8);
+  height: 100%;
+  width: 100%;
 }
 header nav li {
-    display: inline;
-    margin-left: 16px;
+  display: inline;
+  margin-left: 16px;
 }
-.container{
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
+.background{
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;   
 }
-header .container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 16px auto;
 }
-header a{
-    text-decoration: none;
-    color: aliceblue;
+header .container,
+section .container {
+  font-family: Montserrat;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+img {
+  height: 400px;
+}
+section .container {
+  align-items: flex-start;
+}
+section h2 {
+  margin-bottom: 16px;
+}
+.logo-image {
+  display: flex;
+  justify-content: center;
+}
+.logo-image li {
+  display: inline;
+  margin-right: 15px;
+}
+.logo-image img {
+  height: 35px;
+  margin-top: 20px;
+  background: transparent;
+}
+.descricao {
+  margin-left: 20px;
+}
+.descricao h4 {
+  margin-top: 70px;
+  text-align: center;
+}
+.social-link {
+  display: flex;
+  justify-content: center;
+}
+.social-link img {
+  display: flex;
+  align-items: center;
+  height: 25px;
+}
+.social-link li {
+  display: inline;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+.formulario,
+.formulario form {
+  display: flex;
+  flex-direction: column;
+}
+form {
+  margin-top: 20px;
+}
+form input,
+form button {
+  display: block;
+  width: 320px;
+  margin-bottom: 20px;
+  padding: 8px;
+  border-radius: 5px;
+}
+form button {
+  height: 50px;
+  background-color: rgb(15, 15, 15);
+  color: aliceblue;
+}
+form button:hover{
+  background-color: rgb(107, 105, 105);
+}
+.contact-methods {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+#contact {
+  margin-top: 30px;
+}
+#contact .container {
+  display: block;
+}
+#contact form button {
+  margin-top: 15px;
+}
+#contact form label {
+  margin-bottom: 5px;
+}
+.local-map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.local-map p {
+  margin-top: 15px;
 }

@@ -4,10 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
+    <img class="background" src="./image/back2.jpg" alt="Background" />
     <header>
       <div class="container">
         <h1>Skins Shop</h1>
@@ -19,21 +24,79 @@
         </nav>
       </div>
     </header>
-
     <section>
       <div class="container">
-        <img src="" alt="LOGO">
-        <div class="">
+        <img src="./image/skinsshop.png" alt="LOGO" />
+        <div class="descricao">
           <h2>Sobre a loja</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo blanditiis neque nihil voluptatum perspiciatis rerum architecto, laboriosam necessitatibus earum explicabo inventore ullam beatae! Temporibus repudiandae molestias et iste voluptatem expedita!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dolorem. Numquam dolor, sint ipsam ad blanditiis dolorem saepe nihil sunt ullam placeat. Corporis assumenda odit inventore tenetur suscipit quod quisquam?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+            blanditiis neque nihil voluptatum perspiciatis rerum architecto,
+            laboriosam necessitatibus earum explicabo inventore ullam beatae!
+            Temporibus repudiandae molestias et iste voluptatem expedita! Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
+            dolorem. Numquam dolor, sint ipsam ad blanditiis dolorem saepe nihil
+            sunt ullam placeat. Corporis assumenda odit inventore tenetur
+            suscipit quod quisquam?
           </p>
-          <ul>
-            <li><img src="" alt="LOGO 2"></li>
-            <li><img src="" alt="LOGO 3"></li>
-            <li><img src="" alt="LOGO 4"></li>
+          <h4>Skins disponíveis para estes jogos</h4>
+          <ul class="logo-image">
+            <li><img src="./image/cs.png" alt="LOGO 2" /></li>
+            <li><img src="./image/lol.png" alt="LOGO 3" /></li>
+            <li><img src="./image/valorant.png" alt="LOGO 4" /></li>
           </ul>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h2>Contato</h2>
+        <div class="contact-methods">
+          <div class="formulario">
+            <h3>Fale conosco</h3>
+            <form>
+              <label for="name">Nome</label>
+              <input type="name" />
+              <label for="email">E-mail</label>
+              <input type="email" />
+              <label for="name">Whatsapp</label>
+              <input type="tel" />
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+          <div>
+            <h3>Nos acompanhe</h3>
+            <ul class="social-link">
+              <li>
+                <a href="#">
+                  <img src="./image/insta.png" alt="Logo do instagram"
+                /></a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./image/faceb.png" alt="Logo do Facebook"
+                /></a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./image/discord.png" alt="Logo do discord"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="local-map">
+            <h3>Venha até nos</h3>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.269233951838!2d-46.63560135642416!3d-23.558772013128845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59a7bb93df0b%3A0x5955c65d63271edd!2sR.%20da%20Gl%C3%B3ria%2C%20649%20-%20Liberdade%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2013104-098!5e0!3m2!1spt-BR!2sbr!4v1674327765333!5m2!1spt-BR!2sbr"
+              width="200"
+              height="150"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <p>Endereço</p>
+          </div>
         </div>
       </div>
     </section>
