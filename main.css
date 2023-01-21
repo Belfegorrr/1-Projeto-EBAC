@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 16px 0;
+    background-color: rgb(61, 59, 59);
+    color: rgb(242, 243, 245);
+}
+header nav li {
+    display: inline;
+    margin-left: 16px;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    text-decoration: none;
+    color: aliceblue;
+}
